@@ -1,0 +1,198 @@
+/* STYLING THE TAGS - START */
+body {
+    font-family: "Quattrocento",serif;
+}
+
+i{
+    cursor: pointer;
+}
+
+ul{
+    padding: 0%;
+}
+
+li{
+    list-style-type: none;
+}
+/* STYLING THE TAGS - END */
+
+
+/* STYLING THE NAVBAR - START */
+#navData{
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    border-bottom: 2px solid transparent;
+}
+
+#navData:hover{
+    color: #888888;
+    border-bottom: 2px solid #888888;
+}
+/* STYLING THE NAVBAR - END */
+
+
+/* STYLING THE MAIN SLIDER - START */
+.carousel img {
+    max-height: 90vh;
+    margin: 0 auto;
+}
+
+#carouselButton{
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0.8rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    line-height: 25px;
+    background-color: rgba(0, 0, 0, 0.295);
+    color: white;
+    border: 1px solid white;
+}
+
+#carouselButton:hover{
+    background-color: black;
+}
+/* STYLING THE MAIN SLIDER - END */
+
+
+/* STYLING THE INTRO PARAGRAPH - START */
+.contentPara{
+    font-family: 'Poppins',sans-serif;
+    line-height: 30px;
+    font-size: 17px;
+    padding: 3rem;
+    color: rgba(0, 0, 0, 0.432);
+}
+/* STYLING THE INTRO PARAGRAPH - END */
+
+
+/* STYLING THE HOTEL'S OVERVIEW - START */
+.secondSlider{
+    font-family: 'Poppins',sans-serif;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    font-weight: 100;
+    color: rgba(136, 136, 136, 0.678);
+}
+
+.secondSlider:hover{
+    cursor: pointer;
+    color: #888888;
+    border-bottom: 2px solid #888888;
+}
+
+.lowerSlider{
+    background: #F0F0F0;
+}
+
+.lowerSlider img{
+    max-height: 70vh;
+    height: 100%; 
+    border: 0px solid transparent; 
+    border-top-right-radius: 50px; 
+    border-bottom-right-radius: 50px;
+}
+
+.lowerSliderContent{
+    height: 100%;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+}
+
+.lowerSliderContent h2,h4{
+    font-family: "Quattrocento",serif;
+    font-size: 25px; 
+    line-height: 33px;
+    padding-top: 1.5rem; 
+    padding-bottom: 1.5rem; 
+    color: #888888;
+    margin: 0%;
+}
+
+.lowerSliderContent p{
+    font-size: 15px;
+    font-weight: 200;
+    color: #00000094;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin: 0%;
+}
+
+.lowerSlider button, .exeSection button{
+    font-family: "Quattrocento",serif;
+    background-color: #feeef2;
+    text-transform: uppercase;
+    border: 0px solid transparent;
+    font-size: 13.5px;
+    margin-bottom: 0.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 550;
+}
+/* STYLING THE HOTEL'S OVERVIEW - END */
+
+
+/* STYLING THE HOTEL'S AMENITIES - START */
+.card{
+    width: 23rem;
+}
+
+.exeSection p,.address, .address a{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: #00000093;
+    text-decoration: none;
+}
+/* STYLING THE HOTEL'S AMENITIES - END */
+
+
+/* STYLING THE FOOTER - START */
+.footer{
+    padding: 3rem;
+}
+
+.footerButton{
+    background-color: #FFF;
+    font-size: 13px;
+    width: 230px;
+    line-height: 44px;
+    border:0px solid transparent;
+}
+
+.footerButton:hover{
+    text-decoration: underline;    
+}
+/* STYLING THE FOOTER - END */
+
+
+/* MEDIA QURIES FOR RESPOSIVE BEHAVIOUR */
+@media screen and (min-width: 320px) and (max-width: 760px) {
+    .contentPara{
+        padding: 0rem;
+    }
+
+    .secondSection{
+        display: none;
+    }
+
+    .lowerSlider img{ 
+        border-top-right-radius: 0px; 
+        border-bottom-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+    }
+
+    .lowerSliderContent p{
+        margin: 0.1rem;
+    }
+
+    .card{
+        width: 18rem;
+    }
+}

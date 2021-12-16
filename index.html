@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- LINKING AOS ANIMATION -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- LINKING BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a9a20b01b1.js" crossorigin="anonymous"></script>
+
+  <!-- IMPORTING GOOGLE FONT -->
+  <link href='https://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+  <!-- LINKING LOCAL CSS FILE -->
+  <link rel="stylesheet" href="index.css">
+  <title>The Marriott</title>
+</head>
+
+<body>
+
+  <!-- HEADRE SECTION -->
+  <header class="container">
+    <nav class="navbar navbar-expand-lg w-auto navbar-light" >
+      <div class="container-fluid px-0">
+        <div style="font-size: 25px; white-space: nowrap;">
+          The Marriott
+        </div>
+        <button class="navbar-toggler" style=" background-color: transparent; border: solid transparent;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fas fa-bars" style="color: black"></i></span>
+        </button>
+        <div class="collapse navbar-collapse nav justify-content-lg-end justify-content-center text-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+              <a id="navData" class="nav-link px-3" aria-current="page" href="#">OVERVIEW</a>
+              <a id="navData" class="nav-link px-3" href="#">ROOMS</a>
+              <a id="navData" class="nav-link px-3" href="#">CLUB</a>
+              <a id="navData" class="nav-link px-3" href="#">DINING</a>
+              <a id="navData" class="nav-link px-3" href="#">EVENTS</a>
+              <a id="navData" class="nav-link px-3" href="#">WELLNESS</a>
+              <a id="navData" class="nav-link px-3" href="#">OFFER</a>
+              <a id="navData" class="nav-link px-3" href="#">GALLERY</a>
+              <a id="navData" class="nav-link px-3" href="#">LANDSCAPES</a>
+              <a id="navData" class="nav-link px-3" href="#">GIFTS</a>
+              <a id="navData" class="nav-link px-3" href="#" style="background-color: #feeef2;">RESERVATIONS</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN SLIDER SECTION -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner" >
+      <div class="carousel-item active">
+        <img src="/images/bar (1).jpg" class="d-block  w-100" alt="#">
+        <div class="carousel-caption d-none d-md-block m-5">
+          <h2>BEST IN STAYCATION GUJARAT</h2>
+          <h6>By Better Inida,2021</h6>
+          <button id="carouselButton">Learn More</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/images/5-star (1).jpg" class="d-block  w-100" alt="#">
+        <div class="carousel-caption d-none d-md-block m-5">
+          <h2>FIVE-STAR HOTEL</h2>
+          <h6>2021 Forbes Travel Guide Five Star Rating</h6>
+          <button id="carouselButton">Learn More</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/images/dining (1).jpg" class="d-block  w-100" alt="#">
+        <div class="carousel-caption d-none d-md-block m-5">
+          <h2>NO.1 HOTEL IN INDIA</h2>
+          <h6>INDIA News and World Report</h6>
+          <button id="carouselButton">Learn More</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/images/marriage (1).jpg" class="d-block  w-100" alt="#">
+        <div class="carousel-caption d-none d-md-block m-5">
+          <h2>WRITE YOUR MARRIOTT LOVE STORY</h2>
+          <h6>The Knot Best Of Weddings Hall Of Fame 2021</h6>
+          <button id="carouselButton">Learn More</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/images/pool (1).jpg" class="d-block  w-100" alt="#">
+        <div class="carousel-caption d-none d-md-block m-5">
+          <h2>TOP LUXURY HOTEL IN INDIA</h2>
+          <h6>Travel + Leisure,2021</h6>
+          <button id="carouselButton">Learn More</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/images/rooms (1).jpg" class="d-block  w-100" alt="#">
+        <div class="carousel-caption d-none d-md-block m-5">
+          <h2>THE 2021 GOLD LIST</h2>
+          <h6>The Best Hotels and Resorts in the world By International Travels</h6>
+          <button id="carouselButton">Learn More</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- INTRO PARAGRAPH SECTION -->
+  <div data-aos="zoom-in" data-aos-duration="2000" class="container text-center p-5">
+    <div class="contentPara">
+      In light of the Covid-19 situation, we have implemented stringent precautionary operational measures at all our hotels to safeguard the health and well-being of our guests and colleagues.
+      <br>
+      We have updated our cancellation policies. From 1 October 2021, guests will need to refer to the terms and conditions regarding refunds and cancellation fees on their respective bookings.
+      <br>  
+      For further details, please review our policies here.
+    </div>
+  </div>
+
+  
+  <!-- HOTEL'S OVERVIEW SECTION -->
+  <div>
+    <div class="container text-center">
+      <h2 style="font-size: 30px; line-height: 33px; color: #888888; text-transform: uppercase; word-spacing: 5px; padding: 1rem;">The Marriott Holidays</h2>
+      <div class="secondSection container text-center">
+        <ul>
+          <li class="secondSlider mx-3">OVERVIEW</li>
+          <li class="secondSlider mx-3">HOLIDAY TEA</li>
+          <li class="secondSlider mx-3">BLISSFUL NIGHTS</li>
+          <li class="secondSlider mx-3">YULETIDE FESTIVITIES</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div data-aos="fade-up" data-aos-duration="2000" id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="lowerSlider carousel-item active">
+        <div class="d-flex flex-column flex-sm-row">
+            <img src="images/night.jpg" class="d-block w-100" alt="#">
+            <div class="lowerSliderContent">
+              <h2 class="text-center">A TIMELESS TRADITION</h2>
+              <p>Revel in the excitement of the holiday season as the festivities unfold. Sparkling yuletide décor, seasonal music, a Christmas tree lighting ceremony, visits with Santa and festive holiday meals promise to make the season one to remember.</p>
+              <button>Learn More</button>
+            </div>
+        </div>
+      </div>
+      <div class="lowerSlider carousel-item">
+        <div class="d-flex flex-column flex-sm-row">
+          <img src="images/bakery.jpg" class="d-block w-100" alt="#">
+          <div class="lowerSliderContent">
+            <h2 class="text-center">TASTE THE HOLIDAY SEASON</h2>
+            <p>Celebrate the magic of the season with The Marriott Holiday Afternoon Tea premiering from June 17, 2021 to May 9, 2022. Delicate pastries is the quintessential way to spend an afternoon with those you love. </p>
+            <button>Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="lowerSlider carousel-item">
+        <div class="d-flex flex-column flex-sm-row">
+          <img src="images/rooms.jpg" class="d-block w-100" alt="#">
+          <div class="lowerSliderContent">
+            <h2 class="text-center">YOUR MOST MEMORABLE VACATION</h2>
+            <p>Give yourself the gift of more time with family and friends as you celebrate the magic of the season with festive holiday events.</p>
+            <button>Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="lowerSlider carousel-item">
+        <div class="d-flex flex-column flex-sm-row">
+          <img src="images/feast.jpg" class="d-block w-100" alt="#">
+          <div class="lowerSliderContent">
+            <h2 class="text-center">THE MARRIOTT HOLIDAY JOY</h2>
+            <p>Treat loved ones to a festive getaway in the heart of the city. Enjoy an array of offers with spacious accommodations and luxurious amenities promised to be the highlight of the 2021 holiday season. </p>
+            <button>Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HOTEL'S AMENITIES -->
+  <div class="container text-center" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <h2 style="font-size: 30px; line-height: 33px; color: #888888; text-transform: uppercase; word-spacing: 5px; padding: 1rem;">THE LANGHAM EXCLUSIVES</h2>
+    <h6 style="font-family: 'Poppins',sans-serif; font-weight: 100; color: #00000094;">Explore The Langham signature offers and packages at our hotel.</h6>
+  </div>
+  <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
+    <div data-aos="fade-down" data-aos-duration="2000" class="card m-3" style="border: 0px solid transparent; background-color: #F0F0F0;">
+      <img src="/images/spa.jpg" alt="#">
+      <div class="exeSection text-center p-3">
+        <h5 style="color: #888888;" class="my-3">WITH OUR COMPLIMENTS</h5>
+        <p>Book a stay of 3 or more nights and enjoy a complimentry night from us.</p>
+        <button class="m-2">LEARN MORE</button>
+      </div>
+    </div>
+    <div data-aos="fade-down" data-aos-duration="2000" class="card m-3" style="border: 0px solid transparent; background-color: #F0F0F0;">
+        <img src="/images/listingitem.jpg" alt="#">
+        <div class="exeSection text-center p-3">
+          <h5 style="color: #888888;" class="my-3">LINGER LONGER</h5>
+          <p>Stay two nights or more and enjoy upto 15% off best available rate.</p>
+          <button class="m-2">LEARN MORE</button>
+        </div>
+    </div>
+    <div data-aos="fade-down" data-aos-duration="2000" class="card m-3" style="border: 0px solid transparent; background-color: #F0F0F0;">
+        <img src="/images/family.jpg" alt="#">
+        <div class="exeSection text-center p-3">
+          <h5 style="color: #888888;" class="my-3">STAY AND PLAY</h5>
+          <p>Delight the family with a change of scenery that includes luxurious accommodations.</p>
+          <button class="m-2">LEARN MORE</button>
+        </div>
+    </div>
+  </div>
+
+  <div class="text-center m-5">View All Offers</div>
+
+  <!-- FOOTER SECTION -->
+  <div class="footer text-center" style="font-family:'Poppins'; background-color: #F0F0F0;">
+    <div class="container">
+      <div class="address d-flex flex-column flex-sm-row justify-content-center align-items-center">
+        <div class="m-2">
+          Dev Arc Commercial Complex, 101, Ramdev Nagar, Ahmedabad, Gujarat 380015
+        </div>
+        <div class="m-2">
+         <a href="tel:+96628 02220">T (+91) 96628 02220</a> 
+        </div>
+        <div class="m-2">
+         <a href="mailto:">E info@marritohotels.com</a> 
+        </div>
+      </div>
+      <h4>- FOLLOW US -</h4>
+      <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
+        <div data-aos="fade-out" data-aos-duration="2000" class="m-2">
+          <i class="fab fa-facebook m-2" style="font-size: 1.5rem; padding:0.5rem; color: #888888; background-color: white; border-radius: 30px;"></i>
+          <i class="fab fa-twitter m-2" style="font-size: 1.5rem; padding:0.5rem; color: #888888; background-color: white; border-radius: 30px;"></i>
+          <i class="fab fa-instagram m-2" style="font-size: 1.5rem; padding:0.5rem; color: #888888; background-color: white; border-radius: 30px;"></i>
+          <i class="fab fa-pinterest-p m-2" style="font-size: 1.5rem; padding:0.5rem; color: #888888; background-color: white; border-radius: 30px;"></i>
+        </div>
+        <div data-aos="fade-out" data-aos-duration="2000" class="m-2">
+          <button class="footerButton mx-3">Newsletter SignUp ></button>
+        </div>
+      </div>
+      <hr class="m-5">
+      <ul data-aos="fade-in" data-aos-duration="2000">
+        <li class="m-2" style="color: #888888; font-family: 'Quattrocento',sans-serif;">THE MARRIOTT HOTELS & RESORTS</li>
+        <li class="m-2" style="color: #888888; font-family: 'Quattrocento',sans-serif;">MEDIA CENTRE</li>
+        <li class="m-2" style="color: #888888; font-family: 'Quattrocento',sans-serif;">CONTACT US</li>
+        <li class="m-2" style="color: #888888; font-family: 'Quattrocento',sans-serif;">BEST RATE GUARANTEE</li>
+        <li class="m-2" style="color: #888888; font-family: 'Quattrocento',sans-serif;">CAREERS</li>
+      </ul>
+      <div style="color: #888888; font-family: 'Poppins',sans-serif; font-size: 13px;">&copy; The Marriott Hotels Limited. All Rights Reserved.</div>
+    </div>
+  </div>
+</body>
+
+<!-- INTILIZATION OF ANIMATION LIBRARY -->
+<script>
+  AOS.init();
+</script>
+
+</html>   
