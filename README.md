@@ -1,6 +1,6 @@
 # The Marriott - Luxury Of Future
 
-Hotel Website
+* Hotel Website
 
-See live:-
+* See live:-
 https://dhruv-paghdal.github.io/marriott/
